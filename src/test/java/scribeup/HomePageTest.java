@@ -24,7 +24,6 @@ public class HomePageTest {
     @Test
     public void HeaderButton() {
         driver.get("https://www.scribeup.io/");
-        System.out.println("test1");
         try {
             Thread.sleep(1000);
         } catch (Exception e) {
